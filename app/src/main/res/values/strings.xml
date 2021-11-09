@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">CatchTheCow</string>
+    <string name="catch_the_cow">Catch the Cow!</string>
+    <string name="ko_bild">Kossa!</string>
+    <string name="easy_level">Easy</string>
+    <string name="medium_level">Medium</string>
+    <string name="rules">Rules</string>
+    <string name="hard_level">Hard</string>
+    <string name="hsEasy">Easy HighScore: %1$d milliseconds!</string>
+    <string name="hsMedium">Medium HighScore: %1$d milliseconds!</string>
+    <string name="hsHard">Hard HighScore: %1$d milliseconds!</string>
+
+
+</resources>

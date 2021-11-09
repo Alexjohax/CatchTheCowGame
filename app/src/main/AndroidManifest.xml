@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.catchthecow">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/cow_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/cow_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.CatchTheCow">
+        <activity android:name=".Rules"></activity>
+        <activity android:name=".hardLevel" />
+        <activity android:name=".medLevel" />
+        <activity android:name=".easyLevel" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
